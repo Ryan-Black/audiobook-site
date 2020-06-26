@@ -1,9 +1,17 @@
 import React from 'react';
+import Container from '@material-ui/core/Container';
+import LibraryBook from '../LibraryBook';
 
 const Library = () => {
   return (
-    <div>
-      <h1>Library Page</h1>
+    <div className="library">
+      <Container>
+        <h1 className="home-header">Library</h1>
+        <LibraryBook />
+        <LibraryBook />
+        <LibraryBook />
+        <LibraryBook />
+      </Container>
     </div>
   );
 };
