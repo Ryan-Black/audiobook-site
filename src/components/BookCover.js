@@ -5,8 +5,7 @@ const BookCover = () => {
   return (
     <div className="book-cover">
       <Link to="/book">
-        {' '}
-        <img src={require('../img/darthbane.jpg')} alt="" />
+        <img src={require('../img/book.jpg')} alt="" />
       </Link>
     </div>
   );

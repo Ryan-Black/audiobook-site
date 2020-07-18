@@ -59,8 +59,8 @@ html {
 }
 
 .book-cover {
-  margin: 1rem 1rem;
-  box-shadow: 7px 7px 4px 0px rgba(0, 0, 0, 0.75);
+  margin: 1rem;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75);
 }
 .book-cover img {
   width: 10rem;
